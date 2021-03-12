@@ -13,7 +13,7 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous"
 />
-<link rel="shortcut icon" href="https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/favicon.ico?v=1615391848978" />
+<link rel="shortcut icon" href="https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/favicon.ico?v=1615562737381" />
 <link rel="stylesheet" href="https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/styles/main.css" />
 
 
@@ -23,7 +23,8 @@
 
 
 
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.6.1/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
         <meta name="description" content="
 欢迎来到我的小站呀，很高兴遇见你！🤝
@@ -41,7 +42,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com">
-        <img src="https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/images/avatar.png?v=1615391848978" class="site-logo">
+        <img src="https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/images/avatar.png?v=1615562737381" class="site-logo">
         <h1 class="site-title">白日梦制造商</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -128,21 +129,11 @@
 </div>
                           
 
-                        <div id="vcomments"></div>
+                        <div id="vcomments" style="padding: 20px 0 0"></div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <script>
-            new Valine({
-                el: '#vcomments',
-                appId: 'Ml09LvxW27MyF9u8NeA5TcoC-gzGzoHsz',
-                appKey: 'SzTlDXgSGpUrrNC37WjCW1pV',
-                visitor: true,
-                placeholder: '评论留言',
-            });
-        </script>
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script type="application/javascript">
@@ -153,6 +144,16 @@
         data: {
             menuVisible: false,
         },
+    });
+
+    app.$nextTick(() => {
+        app.valine = new Valine({
+            el: '#vcomments',
+            appId: 'Ml09LvxW27MyF9u8NeA5TcoC-gzGzoHsz',
+            appKey: 'SzTlDXgSGpUrrNC37WjCW1pV',
+            visitor: true,
+            placeholder: '评论留言',
+        });
     });
 </script>
 
