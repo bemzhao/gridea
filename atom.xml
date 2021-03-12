@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com</id>
     <title>白日梦制造商</title>
-    <updated>2021-03-12T15:33:50.039Z</updated>
+    <updated>2021-03-12T16:11:08.768Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com"/>
     <link rel="self" href="https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/atom.xml"/>
@@ -10,6 +10,55 @@
     <logo>https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/images/avatar.png</logo>
     <icon>https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/favicon.ico</icon>
     <rights>All rights reserved 2021, 白日梦制造商</rights>
+    <entry>
+        <title type="html"><![CDATA[关于 Gridea 接入 Valine 评论系统]]></title>
+        <id>https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/post/bzDWCkPw1/</id>
+        <link href="https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/post/bzDWCkPw1/">
+        </link>
+        <updated>2021-03-12T15:43:17.000Z</updated>
+        <summary type="html"><![CDATA[<p>Valine：<a href="https://valine.js.org/">https://valine.js.org/</a><br>
+Leancloud：<a href="https://console.leancloud.cn/apps">https://console.leancloud.cn/apps</a></p>
+<p>作为一款无后端评论系统，接入的教程 Valine 官网上很简单，其他博客都写烂了，记录一下遇到的问题</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Valine：<a href="https://valine.js.org/">https://valine.js.org/</a><br>
+Leancloud：<a href="https://console.leancloud.cn/apps">https://console.leancloud.cn/apps</a></p>
+<p>作为一款无后端评论系统，接入的教程 Valine 官网上很简单，其他博客都写烂了，记录一下遇到的问题</p>
+<!-- more -->
+<br />
+<br />
+<br />
+<p>我使用的是 simple 的主题模板，里面引入了 Vue 框架，Valine 里关于评论的元素是通过给予一个容器</p>
+<pre><code class="language-html">&lt;div id=&quot;vcomments&quot;&gt;&lt;/div&gt;
+</code></pre>
+<p>然后再通过初始化对象动态生成输入框等其他元素的</p>
+<pre><code class="language-js">new Valine({
+    el: '#vcomments',
+    appId: 'Your appId',
+    appKey: 'Your appKey'
+})
+
+</code></pre>
+<p>如果按照官网的示例初始化是没有效果的，表情和提交评论都无效了</p>
+<br />
+<br />
+<p>所以需要在 Vue 初始化之后，Dom 更新完成了再进行 Valine 的初始化</p>
+<pre><code class="language-js">var app = new Vue({
+    el: '#app',
+    data: {
+        menuVisible: false,
+    },
+});
+
+app.$nextTick(() =&gt; {
+    new Valine({
+        el: '#vcomments',
+        appId: 'Your appId',
+        appKey: 'Your appKey'
+    })
+});
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美好的一天]]></title>
         <id>https://coding-pages-bucket-1800254-8438242-14076-526197-1257271342.cos-website.ap-hongkong.myqcloud.com/post/YQR7p-RtO/</id>
