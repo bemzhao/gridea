@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bemzhao.github.io</id>
     <title>白日梦制造商</title>
-    <updated>2021-08-05T03:47:41.552Z</updated>
+    <updated>2021-08-05T03:52:18.730Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bemzhao.github.io"/>
     <link rel="self" href="https://bemzhao.github.io/atom.xml"/>
@@ -16,12 +16,12 @@
         <link href="https://bemzhao.github.io/post/bzDWCkPw1/">
         </link>
         <updated>2021-03-12T15:43:17.000Z</updated>
-        <summary type="html"><![CDATA[<p>Valine：<a href="https://valine.js.org/">https://valine.js.org/</a><br>
-Leancloud：<a href="https://console.leancloud.cn/apps">https://console.leancloud.cn/apps</a></p>
+        <summary type="html"><![CDATA[<p>Valine：<a href="https://valine.js.org/" target="_blank">https://valine.js.org/</a><br>
+Leancloud：<a href="https://console.leancloud.cn/apps" target="_blank">https://console.leancloud.cn/apps</a></p>
 <p>作为一款无后端评论系统，接入的教程 Valine 官网上很简单，其他博客都写烂了，记录一下遇到的问题</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>Valine：<a href="https://valine.js.org/">https://valine.js.org/</a><br>
-Leancloud：<a href="https://console.leancloud.cn/apps">https://console.leancloud.cn/apps</a></p>
+        <content type="html"><![CDATA[<p>Valine：<a href="https://valine.js.org/" target="_blank">https://valine.js.org/</a><br>
+Leancloud：<a href="https://console.leancloud.cn/apps" target="_blank">https://console.leancloud.cn/apps</a></p>
 <p>作为一款无后端评论系统，接入的教程 Valine 官网上很简单，其他博客都写烂了，记录一下遇到的问题</p>
 <!-- more -->
 <br />
