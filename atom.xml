@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://bemzhao.life</id>
+    <id>https://bemzhao.github.io</id>
     <title>白日梦制造商</title>
-    <updated>2021-05-16T12:42:07.548Z</updated>
+    <updated>2021-08-05T03:37:02.710Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://bemzhao.life"/>
-    <link rel="self" href="https://bemzhao.life/atom.xml"/>
+    <link rel="alternate" href="https://bemzhao.github.io"/>
+    <link rel="self" href="https://bemzhao.github.io/atom.xml"/>
     <subtitle>面包会有的，牛奶会有的，一切都会有的</subtitle>
-    <logo>https://bemzhao.life/images/avatar.png</logo>
-    <icon>https://bemzhao.life/favicon.ico</icon>
+    <logo>https://bemzhao.github.io/images/avatar.png</logo>
+    <icon>https://bemzhao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 白日梦制造商</rights>
     <entry>
         <title type="html"><![CDATA[睡过头了，今天太阳有点烦]]></title>
-        <id>https://bemzhao.life/post/82KMbl5CN/</id>
-        <link href="https://bemzhao.life/post/82KMbl5CN/">
+        <id>https://bemzhao.github.io/post/82KMbl5CN/</id>
+        <link href="https://bemzhao.github.io/post/82KMbl5CN/">
         </link>
         <updated>2021-05-16T01:06:08.000Z</updated>
         <content type="html"><![CDATA[<p>好像有一阵子没跑步了，不太确定，或许隔得时间不久但就觉得过了很久。最近的生活总是让我觉得烦躁，想起来距离上一次发文章也隔了两个月了，当初想着一个星期写一篇来着，果然我是有够懒的，和 keep 一样，三天打鱼两天晒网，到现在干脆就没做了，根本 keep 不动。我想我该把事情罗列一下，找找原因啥的。</p>
@@ -28,8 +28,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[关于 Gridea 接入 Valine 评论系统]]></title>
-        <id>https://bemzhao.life/post/bzDWCkPw1/</id>
-        <link href="https://bemzhao.life/post/bzDWCkPw1/">
+        <id>https://bemzhao.github.io/post/bzDWCkPw1/</id>
+        <link href="https://bemzhao.github.io/post/bzDWCkPw1/">
         </link>
         <updated>2021-03-12T15:43:17.000Z</updated>
         <summary type="html"><![CDATA[<p>Valine：<a href="https://valine.js.org/">https://valine.js.org/</a><br>
@@ -77,8 +77,8 @@ app.$nextTick(() =&gt; {
     </entry>
     <entry>
         <title type="html"><![CDATA[美好的一天]]></title>
-        <id>https://bemzhao.life/post/YQR7p-RtO/</id>
-        <link href="https://bemzhao.life/post/YQR7p-RtO/">
+        <id>https://bemzhao.github.io/post/YQR7p-RtO/</id>
+        <link href="https://bemzhao.github.io/post/YQR7p-RtO/">
         </link>
         <updated>2021-03-08T14:55:42.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="早晨">早晨</h2>
@@ -87,21 +87,21 @@ app.$nextTick(() =&gt; {
         <content type="html"><![CDATA[<h2 id="早晨">早晨</h2>
 <p>原计划是起床之后来组keep醒一醒脑袋，没想到也有和我一样的小可爱愿意早起耕耘，为年轻的身体注入热情💪💪</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://bemzhao.life/post-images/1615215404143.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://bemzhao.github.io/post-images/1615215404143.jpg" alt="" loading="lazy"></figure>
 <p>想着独乐乐不如众乐乐，叫醒自己不如叫醒沿途中同样热爱青春的其他小可爱，只是没想到…<br>
 🙃</p>
-<figure data-type="image" tabindex="2"><img src="https://bemzhao.life/post-images/1615215460443.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://bemzhao.github.io/post-images/1615215460443.jpg" alt="" loading="lazy"></figure>
 <p>只是更没想到…🙃🙃</p>
-<figure data-type="image" tabindex="3"><img src="https://bemzhao.life/post-images/1615215481920.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://bemzhao.github.io/post-images/1615215481920.jpg" alt="" loading="lazy"></figure>
 <p>清晨的小路上，空气格外的清新，还有一点雨后泥土的味道👍。晨跑的路线经过一片新开的楼盘，离坂田地铁站也不远，可能是因为这个原因吧，虽然是新开的楼盘但入住率蛮高的。周围还有一个湾畔mall，让我想起了曦悦湾畔，那里的入住率要是也能这么高就好了，不过也无所谓了，就当资产积累吧……</p>
 <br/>
 <br/>
 <br/>
 <h2 id="能与美好挂钩那当然是吃啦">能与美好挂钩那当然是吃啦</h2>
 <p>回到小窝，叫醒女票一起买菜顺便做早餐</p>
-<figure data-type="image" tabindex="4"><img src="https://bemzhao.life/post-images/1615215566422.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="5"><img src="https://bemzhao.life/post-images/1615215578319.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="6"><img src="https://bemzhao.life/post-images/1615215586824.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://bemzhao.github.io/post-images/1615215566422.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://bemzhao.github.io/post-images/1615215578319.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://bemzhao.github.io/post-images/1615215586824.jpg" alt="" loading="lazy"></figure>
 <p>粗粮切片面包🍞夹生菜🌮带一个笨蛋<br>
 以为能吃八百个<br>
 结果一个就饱了，嗝~😎</p>
@@ -111,26 +111,26 @@ app.$nextTick(() =&gt; {
 <h2 id="还有一件事">还有一件事</h2>
 <p>回想起每次跑步都觉得带个手机真心不方便，经过深入的讨论决定将Apple Watch 列入今年的计划中，支付、收发短信和电话，还能刷深圳通，理论上大部分时间都不需要将手机带在身上了</p>
 <p>于是……</p>
-<figure data-type="image" tabindex="7"><img src="https://bemzhao.life/post-images/1615215678762.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://bemzhao.github.io/post-images/1615215678762.jpg" alt="" loading="lazy"></figure>
 <p>冲它！！！</p>
 <p>直到我来到了益田假日广场……</p>
-<figure data-type="image" tabindex="8"><img src="https://bemzhao.life/post-images/1615215703119.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://bemzhao.github.io/post-images/1615215703119.jpg" alt="" loading="lazy"></figure>
 <p>再见您咧</p>
 <p>虽然没有多早来，但也不觉得有多晚，以为能直接提现货，没想到乌鸡囊是如此之多，是在下输了</p>
 <p>算了，就还是逛逛万象天地好了</p>
-<figure data-type="image" tabindex="9"><img src="https://bemzhao.life/post-images/1615215725748.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="10"><img src="https://bemzhao.life/post-images/1615215734787.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://bemzhao.github.io/post-images/1615215725748.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="10"><img src="https://bemzhao.github.io/post-images/1615215734787.jpg" alt="" loading="lazy"></figure>
 <p>回小窝自己煮饭吃</p>
-<figure data-type="image" tabindex="11"><img src="https://bemzhao.life/post-images/1615215749961.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="11"><img src="https://bemzhao.github.io/post-images/1615215749961.jpg" alt="" loading="lazy"></figure>
 <p>饭后散步</p>
-<figure data-type="image" tabindex="12"><img src="https://bemzhao.life/post-images/1615215769542.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="12"><img src="https://bemzhao.github.io/post-images/1615215769542.jpg" alt="" loading="lazy"></figure>
 <p>美好的一天，结束🛌🛌</p>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://bemzhao.life/post/hello-gridea/</id>
-        <link href="https://bemzhao.life/post/hello-gridea/">
+        <id>https://bemzhao.github.io/post/hello-gridea/</id>
+        <link href="https://bemzhao.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
