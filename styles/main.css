@@ -479,16 +479,15 @@ a {
 .post-detail .post-content img {
   display: block;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  max-width: 100%;
   border-radius: 2px;
   margin: 24px auto;
-  max-width: 600px;
+  max-width: 100%;
   max-height: 600px;
 }
 .post-detail .post-content p {
   line-height: 1.725;
   margin-bottom: 24px;
-  font-size: 18px;
+  font-size: 16px;
   color: #495057;
 }
 .post-detail .post-content p code,
@@ -691,6 +690,9 @@ a {
     margin: 0;
   }
   .sidebar .top-container {
+    opacity: 1 !important;
+    transform: none !important;
+    pointer-events: auto !important;
     text-align: left;
     padding: 0 16px;
   }
