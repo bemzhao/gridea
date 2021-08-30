@@ -13,7 +13,7 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous"
 />
-<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630170097526" />
+<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630293282905" />
 <link rel="stylesheet" href="https://bemzhao.github.io/styles/main.css" />
 <link rel="stylesheet" href="https://bemzhao.github.io/media/styles/monokai-sublime.min.css" />
 
@@ -43,7 +43,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://bemzhao.github.io">
-        <img src="https://bemzhao.github.io/images/avatar.png?v=1630170097526" class="site-logo">
+        <img src="https://bemzhao.github.io/images/avatar.png?v=1630293282905" class="site-logo">
         <h1 class="site-title">bemzhao</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -256,6 +256,15 @@ MutaionObserver
 <li>在函数中使用var定义的变量是局部变量，有时想要在外部也访问到函数里面的变量，就需要定义window对象属性<br>
 <br /><br /></li>
 </ol>
+<h2 id="闭包">闭包</h2>
+<p>闭包就是能够读取其他函数内部变量的函数。<br>
+因为只有函数内部的子函数才能读取局部变量，因此可以把闭包简单理解成&quot;定义在一个函数内部的函数&quot;。<br>
+所以，在本质上，闭包就是将函数内部和函数外部连接起来的一座桥梁。<br>
+最大用处有两个：</p>
+<ol>
+<li>可以读取函数内部的变量</li>
+<li>让这些变量的值始终保持在内存中。</li>
+</ol>
 <h2 id="eventcurrenttarget-和-eventtarget-的区别">event.currentTarget( ) 和 event.target( ) 的区别</h2>
 <p>两个方法都是监听事件触发的目标，区别是 event.currentTarget( ) 会返回当前触发事件的元素；而event.target( ) 会返回触发事件的源头元素。<br>
 <br /><br /></p>
@@ -294,8 +303,22 @@ getElementById()  // 通过元素 id 获取元素<br>
 </code></pre>
 <br />
 <p>基本上都是循环之后判断新的数组中是否存在值<br>
-还有 indexOf()、includes()、Map 中的 has()<br>
-<br /><br /></p>
+还有 indexOf()、includes()、Map 中的 has()</p>
+<pre><code class="language-js">function unique(arr) {
+    if (!Array.isArray(arr)) {
+        console.log('type error!')
+        return
+    }
+    var array =[];
+    for(var i = 0; i &lt; arr.length; i++) {
+            if( !array.includes( arr[i]) ) {
+                    array.push(arr[i]);
+              }
+    }
+    return array
+}
+</code></pre>
+<p><br /><br /></p>
 <h2 id="改变函数内部的this指针的指向">改变函数内部的this指针的指向</h2>
 <p>call()、apply()、bind()<br>
 区别在于参数，他们两个的第一个参数都是一样的，表示调用该函数的对象<br>
@@ -449,7 +472,8 @@ async 函数就是 Generator 函数的语法糖<br>
 <br /><br /></li>
 </ul>
 <h2 id="v-model-原理">v-model 原理</h2>
-<p>通过 v-bind 绑定 value 属性，v-on 监听触发 input 事件并传递数据，其底层是通过Object.defineProperty() 来劫持各个属性的 setter，getter，达到监听数据变动的目的。<br>
+<p>通过 v-bind 绑定 value 属性，v-on 监听触发 input 事件并传递数据，<br>
+其底层是通过遍历对象的属性并用 Object.defineProperty() 转为 getter/setter，每个组件实例都对应一个 watcher 实例，它会在组件渲染时将使用的属性记录为依赖，当依赖项变化时，会通知 wather，从而使它关联的组件重新渲染。<br>
 <br /><br /></p>
 <h2 id="nexttick-使用场景和原理">nextTick 使用场景和原理</h2>
 <p>nextTick 中的回调是在下次 DOM 更新循环结束之后执行的延迟回调。在修改数据之后立即使用这个方法，获取更新后的 DOM。主要思路就是采用微任务优先的方式调用异步方法去执行 nextTick 包装的方法<br>
