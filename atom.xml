@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bemzhao.github.io</id>
     <title>bemzhao</title>
-    <updated>2021-08-30T03:15:08.315Z</updated>
+    <updated>2021-08-30T03:28:44.668Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bemzhao.github.io"/>
     <link rel="self" href="https://bemzhao.github.io/atom.xml"/>
@@ -165,7 +165,8 @@ MutaionObserver
 最大用处有两个：</p>
 <ol>
 <li>可以读取函数内部的变量</li>
-<li>让这些变量的值始终保持在内存中。</li>
+<li>让这些变量的值始终保持在内存中。<br>
+<br /><br /></li>
 </ol>
 <h2 id="eventcurrenttarget-和-eventtarget-的区别">event.currentTarget( ) 和 event.target( ) 的区别</h2>
 <p>两个方法都是监听事件触发的目标，区别是 event.currentTarget( ) 会返回当前触发事件的元素；而event.target( ) 会返回触发事件的源头元素。<br>
