@@ -13,7 +13,7 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous"
 />
-<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630294371964" />
+<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630312668525" />
 <link rel="stylesheet" href="https://bemzhao.github.io/styles/main.css" />
 <link rel="stylesheet" href="https://bemzhao.github.io/media/styles/monokai-sublime.min.css" />
 
@@ -43,7 +43,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://bemzhao.github.io">
-        <img src="https://bemzhao.github.io/images/avatar.png?v=1630294371964" class="site-logo">
+        <img src="https://bemzhao.github.io/images/avatar.png?v=1630312668525" class="site-logo">
         <h1 class="site-title">bemzhao</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -278,6 +278,26 @@ insertBefore()  // 插入<br>
 getElementsByTagName()  // 通过标签名获取元素<br>
 getElementsByName()  // 通过元素的 name 属性获取元素<br>
 getElementById()  // 通过元素 id 获取元素<br>
+<br /><br /></p>
+<h2 id="如何去掉-options-请求">如何去掉 Options 请求</h2>
+<p>跨域资源共享中，对于非简单请求（那种对服务器有特殊要求的请求，比如请求方法是 PUT 或 DELETE，或者 Content-Type 字段的类型是 application/json），会在发送真正的请求之前，发送一次 Options 预检请求。因此只要将非简单请求改为简单请求即可。<br>
+只要同时满足以下两大条件，就属于简单请求。</p>
+<ol>
+<li>请求方法是以下三种方法之一：<br>
+　　* HEAD<br>
+　　* GET<br>
+　　* POST</li>
+<li>HTTP的头信息不超出以下几种字段：<br>
+　　* Accept<br>
+　　* Accept-Language<br>
+　　* Content-Language<br>
+　　* Last-Event-ID<br>
+　　* Content-Type：只限于三个值application/x-www-form-urlencoded、multipart/form-data、text/plain</li>
+</ol>
+<p>通常在使用 axios 时，axios 会将JavaScript 对象序列化为 JSON 来发送，也就是说会使用 ‘application/json’作为Content-Type，可以用 qs 库来处理 post 的 data<br>
+<br /><br /></p>
+<h2 id="如何判断对象内的属性是自有属性还是继承属性">如何判断对象内的属性是自有属性还是继承属性</h2>
+<p>hasOwnProperty() 返回true的是自有属性，凡是构造函数的原型属性（原型对象包含的属性），都是继承属性，使用 hasOwnProperty() 方法检测时，都会返回 false。但是对于原型对象本身来说，这些原型属性又是原型对象的自有属性，所有返回值又是 true<br>
 <br /><br /></p>
 <h2 id="常见的数组去重">常见的数组去重</h2>
 <ol>
