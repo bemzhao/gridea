@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bemzhao.github.io</id>
     <title>bemzhao</title>
-    <updated>2021-08-30T03:28:44.668Z</updated>
+    <updated>2021-08-30T03:32:53.930Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bemzhao.github.io"/>
     <link rel="self" href="https://bemzhao.github.io/atom.xml"/>
@@ -444,6 +444,7 @@ async 函数就是 Generator 函数的语法糖<br>
 <h2 id="vue-组件间通信有哪几种方式">Vue 组件间通信有哪几种方式？</h2>
 <ol>
 <li><code>props / $emit</code> 适用 父子组件通信</li>
+<li><code>ref 与 $parent / $children</code> 适用 父子组件通信</li>
 <li><code>EventBus （$emit / $on）</code> 适用于 父子、隔代、兄弟组件通信</li>
 <li><code>provide / inject</code> 适用于 隔代组件通信</li>
 <li><code>Vuex</code> 适用于 父子、隔代、兄弟组件通信<br>

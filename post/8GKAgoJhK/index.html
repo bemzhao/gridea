@@ -13,7 +13,7 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous"
 />
-<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630294122752" />
+<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630294371964" />
 <link rel="stylesheet" href="https://bemzhao.github.io/styles/main.css" />
 <link rel="stylesheet" href="https://bemzhao.github.io/media/styles/monokai-sublime.min.css" />
 
@@ -43,7 +43,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://bemzhao.github.io">
-        <img src="https://bemzhao.github.io/images/avatar.png?v=1630294122752" class="site-logo">
+        <img src="https://bemzhao.github.io/images/avatar.png?v=1630294371964" class="site-logo">
         <h1 class="site-title">bemzhao</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -542,6 +542,7 @@ async 函数就是 Generator 函数的语法糖<br>
 <h2 id="vue-组件间通信有哪几种方式">Vue 组件间通信有哪几种方式？</h2>
 <ol>
 <li><code>props / $emit</code> 适用 父子组件通信</li>
+<li><code>ref 与 $parent / $children</code> 适用 父子组件通信</li>
 <li><code>EventBus （$emit / $on）</code> 适用于 父子、隔代、兄弟组件通信</li>
 <li><code>provide / inject</code> 适用于 隔代组件通信</li>
 <li><code>Vuex</code> 适用于 父子、隔代、兄弟组件通信<br>
