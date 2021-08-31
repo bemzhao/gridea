@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bemzhao.github.io</id>
     <title>bemzhao</title>
-    <updated>2021-08-30T08:37:50.977Z</updated>
+    <updated>2021-08-31T09:02:09.901Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bemzhao.github.io"/>
     <link rel="self" href="https://bemzhao.github.io/atom.xml"/>
@@ -333,7 +333,7 @@ bind 返回的是一个函数<br>
 <p>Promise.any()<br>
 　　1. 只要参数实例有一个成功，就返回成功<br>
 　　2. 如果所有参数实例都失败了，就返回失败</p>
-<p>__Generator __<br>
+<p><strong>Generator</strong><br>
 形式上，Generator 函数是一个普通函数<br>
 有以下特征：<br>
 　　1. function 关键字与函数名之间有一个星号<br>
