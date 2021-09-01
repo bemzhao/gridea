@@ -13,7 +13,7 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous"
 />
-<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630400734683" />
+<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630483416178" />
 <link rel="stylesheet" href="https://bemzhao.github.io/styles/main.css" />
 <link rel="stylesheet" href="https://bemzhao.github.io/media/styles/monokai-sublime.min.css" />
 
@@ -43,7 +43,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://bemzhao.github.io">
-        <img src="https://bemzhao.github.io/images/avatar.png?v=1630400734683" class="site-logo">
+        <img src="https://bemzhao.github.io/images/avatar.png?v=1630483416178" class="site-logo">
         <h1 class="site-title">bemzhao</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -299,6 +299,14 @@ getElementById()  // 通过元素 id 获取元素<br>
 <h2 id="如何判断对象内的属性是自有属性还是继承属性">如何判断对象内的属性是自有属性还是继承属性</h2>
 <p>hasOwnProperty() 返回true的是自有属性，凡是构造函数的原型属性（原型对象包含的属性），都是继承属性，使用 hasOwnProperty() 方法检测时，都会返回 false。但是对于原型对象本身来说，这些原型属性又是原型对象的自有属性，所有返回值又是 true<br>
 <br /><br /></p>
+<h2 id="在地址栏里输入一个url到这个页面呈现出来中间会发生什么">在地址栏里输入一个URL，到这个页面呈现出来，中间会发生什么？</h2>
+<ul>
+<li>浏览器根据请求的 URL 会先寻找缓存，查看缓存中是否有记录，如果没有记录就交给DNS域名解析，找到真实的IP，向服务器发起请求；</li>
+<li>服务器交给后台处理完成后返回数据，浏览器接收文件（HTML、CSS、JavaScript等）；</li>
+<li>浏览器对加载到的资源（HTML、CSS、JavaScript等）进行语法解析，构建相应的内部数据结构（DOM树、CSS树、render树等）；</li>
+<li>载入解析到的资源文件、渲染页面、完成。<br>
+<br /><br /></li>
+</ul>
 <h2 id="常见的数组去重">常见的数组去重</h2>
 <ol>
 <li><strong>ES6 Set 去重</strong></li>
@@ -633,7 +641,14 @@ changeVal = () =&gt; {
 }
 </code></pre>
 <br />
-<p>总结一句话就是，setState 本身并不是异步，只是因为 React 的性能优化机制体现为异步。在 React 的生命周期函数或者作用域下为异步，在原生的环境下为同步。</p>
+<p>总结一句话就是，setState 本身并不是异步，只是因为 React 的性能优化机制体现为异步。在 React 的生命周期函数或者作用域下为异步，在原生的环境下为同步。<br>
+<br /><br /></p>
+<h2 id="使用-react-hooks-好处是啥">使用 React Hooks 好处是啥？</h2>
+<ul>
+<li>使你在无需修改组件结构的情况下复用状态逻辑</li>
+<li>将组件中相互关联的部分拆分成更小的函数</li>
+<li>在非 class 的情况下可以使用更多的 React 特性</li>
+</ul>
 </div>
                         
                         <div class="tag-container">
