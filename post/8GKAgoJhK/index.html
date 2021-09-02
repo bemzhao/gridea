@@ -13,7 +13,7 @@
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous"
 />
-<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630483416178" />
+<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1630542781334" />
 <link rel="stylesheet" href="https://bemzhao.github.io/styles/main.css" />
 <link rel="stylesheet" href="https://bemzhao.github.io/media/styles/monokai-sublime.min.css" />
 
@@ -43,7 +43,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://bemzhao.github.io">
-        <img src="https://bemzhao.github.io/images/avatar.png?v=1630483416178" class="site-logo">
+        <img src="https://bemzhao.github.io/images/avatar.png?v=1630542781334" class="site-logo">
         <h1 class="site-title">bemzhao</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -301,10 +301,10 @@ getElementById()  // 通过元素 id 获取元素<br>
 <br /><br /></p>
 <h2 id="在地址栏里输入一个url到这个页面呈现出来中间会发生什么">在地址栏里输入一个URL，到这个页面呈现出来，中间会发生什么？</h2>
 <ul>
-<li>浏览器根据请求的 URL 会先寻找缓存，查看缓存中是否有记录，如果没有记录就交给DNS域名解析，找到真实的IP，向服务器发起请求；</li>
-<li>服务器交给后台处理完成后返回数据，浏览器接收文件（HTML、CSS、JavaScript等）；</li>
+<li>浏览器根据请求的 URL 会先寻找缓存，查看浏览器或系统缓存中是否有记录，如果没有记录就交给DNS域名解析，找到真实的IP，通过三次握手建立 TCP/IP 连接向服务器发起请求；</li>
+<li>服务器进行安全验证是否允许访问，然后交给后台处理完成后返回数据，浏览器接收文件（HTML、CSS、JavaScript等）；</li>
 <li>浏览器对加载到的资源（HTML、CSS、JavaScript等）进行语法解析，构建相应的内部数据结构（DOM树、CSS树、render树等）；</li>
-<li>载入解析到的资源文件、渲染页面、完成。<br>
+<li>载入解析到的资源文件、渲染页面。<br>
 <br /><br /></li>
 </ul>
 <h2 id="常见的数组去重">常见的数组去重</h2>
