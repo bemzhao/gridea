@@ -217,8 +217,22 @@ progress {
 /*
  * Add the correct display in Chrome and Safari.
  */
-summary {
-  display: list-item;
+details summary {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+details summary::before {
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #343a40;
+  margin: 0 10px 0 0;
+}
+details[open] summary::before {
+  transform: rotate(90deg);
 }
 /* a11y-dark theme */
 /* Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css */
