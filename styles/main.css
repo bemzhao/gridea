@@ -218,7 +218,7 @@ progress {
  * Add the correct display in Chrome and Safari.
  */
 details summary {
-  display: flex;
+  display: flex !important;
   align-items: center;
   cursor: pointer;
 }
@@ -230,6 +230,11 @@ details summary::before {
   border-bottom: 5px solid transparent;
   border-left: 8px solid #343a40;
   margin: 0 10px 0 0;
+}
+@media (max-width: 800px) {
+  details summary h2 {
+    font-size: 18px;
+  }
 }
 details[open] summary::before {
   transform: rotate(90deg);
