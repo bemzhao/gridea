@@ -221,6 +221,7 @@ details summary {
   display: flex !important;
   align-items: center;
   cursor: pointer;
+  outline: none;
 }
 details summary::before {
   content: '';
@@ -230,6 +231,9 @@ details summary::before {
   border-bottom: 5px solid transparent;
   border-left: 8px solid #343a40;
   margin: 0 10px 0 0;
+}
+details summary::-webkit-details-marker {
+  display: none;
 }
 @media (max-width: 800px) {
   details summary h2 {
