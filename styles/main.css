@@ -218,19 +218,25 @@ progress {
  * Add the correct display in Chrome and Safari.
  */
 details summary {
+  position: relative;
   display: flex !important;
   align-items: center;
   cursor: pointer;
   outline: none;
+  padding: 0 0 0 20px;
 }
 details summary::before {
+  position: absolute;
   content: '';
   width: 0;
   height: 0;
+  left: 0;
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-left: 8px solid #343a40;
-  margin: 0 10px 0 0;
+  margin: auto 10px auto 0;
+  top: 0;
+  bottom: 0;
 }
 details summary::-webkit-details-marker {
   display: none;
