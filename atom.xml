@@ -5,22 +5,22 @@
     <updated>2021-09-12T16:45:48.769Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bemzhao.github.io"/>
-    <link rel="self" href="https://bemzhao.github.io/atom.xml"/>
+    <link rel="self" href="https://bemzhao.github.io/gridea/atom.xml"/>
     <subtitle>面包会有的，牛奶会有的，一切都会有的</subtitle>
-    <logo>https://bemzhao.github.io/images/avatar.png</logo>
-    <icon>https://bemzhao.github.io/favicon.ico</icon>
+    <logo>https://bemzhao.github.io/gridea/images/avatar.png</logo>
+    <icon>https://bemzhao.github.io/gridea/favicon.ico</icon>
     <rights>All rights reserved 2021, bemzhao</rights>
     <entry>
         <title type="html"><![CDATA[node-sass 安装问题]]></title>
-        <id>https://bemzhao.github.io/post/GQLXm5Unh/</id>
-        <link href="https://bemzhao.github.io/post/GQLXm5Unh/">
+        <id>https://bemzhao.github.io/gridea/post/GQLXm5Unh/</id>
+        <link href="https://bemzhao.github.io/gridea/post/GQLXm5Unh/">
         </link>
         <updated>2021-09-12T06:18:31.000Z</updated>
         <summary type="html"><![CDATA[<p>在参与其他项目开发的时候，npm install 时总是会出现 node-sass 安装不上的问题，因为没有截图在网上找了一张与当时类似的情况：</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>在参与其他项目开发的时候，npm install 时总是会出现 node-sass 安装不上的问题，因为没有截图在网上找了一张与当时类似的情况：</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://bemzhao.github.io/post-images/1631465125155.png" alt="node install error" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://bemzhao.github.io/gridea/post-images/1631465125155.png" alt="node install error" loading="lazy"></figure>
 <p><br/><br/></p>
 <h2 id="提示没有-python">提示没有 python</h2>
 <p>node-sass 需要一个 binding.node 的二进制文件，出现这种情况是因为下载 binding.node 失败，node-sass 会尝试在本地编译 binding.node，过程就需要python，这里我不考虑 python 去编译 binding.node 的情况，看看如何解决下载失败的。</p>
@@ -36,7 +36,7 @@ sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 <p>除此之外，如果项目太久，项目中使用的 node-sass 版本比较旧，新同学在刚接手时，可能装的 node 版本就会是最新的，那么就有另一个问题，node-sass 和 node 两者的版本不兼容。</p>
 <p>在 node-sass 的 github 仓库里有关于 node 版本的支持策略：</p>
 <p>👉 <a href="https://github.com/sass/node-sass">https://github.com/sass/node-sass</a></p>
-<figure data-type="image" tabindex="2"><img src="https://bemzhao.github.io/post-images/1631462591679.PNG" alt="node 版本支持策略" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://bemzhao.github.io/gridea/post-images/1631462591679.PNG" alt="node 版本支持策略" loading="lazy"></figure>
 <p>node 版本如果太高，一般来说项目中的低版本的 node-sass 都是安装不上的，他找不到对应的 binding.node 就会报错。</p>
 <p><br/><br/></p>
 <h2 id="nvm-切换低版本-node">nvm 切换低版本 node</h2>
@@ -54,14 +54,14 @@ nvm use 120.0.0          // 选择使用XXX版本
 </code></pre>
 <p><br/><br/></p>
 <p>nvm 安装 node 时如果有遇到问题</p>
-<figure data-type="image" tabindex="3"><img src="https://bemzhao.github.io/post-images/1631463682775.PNG" alt="nvm 安装 node 出现问题" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://bemzhao.github.io/gridea/post-images/1631463682775.PNG" alt="nvm 安装 node 出现问题" loading="lazy"></figure>
 <p>在 nvm 根目录下 settings.txt 设置下载源即可：</p>
 <pre><code class="language-text">node_mirror: npm.taobao.org/mirrors/node/
 npm_mirror: npm.taobao.org/mirrors/npm/
 </code></pre>
 <br/>
-<figure data-type="image" tabindex="4"><img src="https://bemzhao.github.io/post-images/1631463819781.PNG" alt="nvm 目录" loading="lazy"></figure>
-<figure data-type="image" tabindex="5"><img src="https://bemzhao.github.io/post-images/1631463879195.PNG" alt="配置下载源" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://bemzhao.github.io/gridea/post-images/1631463819781.PNG" alt="nvm 目录" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://bemzhao.github.io/gridea/post-images/1631463879195.PNG" alt="配置下载源" loading="lazy"></figure>
 <p><br/><br/></p>
 <h2 id="下载对应版本后-bindingnode-还是报错">下载对应版本后 binding.node 还是报错</h2>
 <pre><code class="language-text">Found bindings for the following environments:
@@ -73,8 +73,8 @@ npm_mirror: npm.taobao.org/mirrors/npm/
     </entry>
     <entry>
         <title type="html"><![CDATA[常见问题]]></title>
-        <id>https://bemzhao.github.io/post/8GKAgoJhK/</id>
-        <link href="https://bemzhao.github.io/post/8GKAgoJhK/">
+        <id>https://bemzhao.github.io/gridea/post/8GKAgoJhK/</id>
+        <link href="https://bemzhao.github.io/gridea/post/8GKAgoJhK/">
         </link>
         <updated>2021-08-24T13:12:37.000Z</updated>
         <summary type="html"><![CDATA[<p>摘要</p>
@@ -85,7 +85,7 @@ npm_mirror: npm.taobao.org/mirrors/npm/
 <summary>
 <h2 id="原型-构造函数-实例">原型、构造函数、实例</h2>
 </summary>
-<figure data-type="image" tabindex="1"><img src="https://bemzhao.github.io/post-images/1631425894885.png" alt="原型、构造函数、实例三者关系图" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://bemzhao.github.io/gridea/post-images/1631425894885.png" alt="原型、构造函数、实例三者关系图" loading="lazy"></figure>
 <ul>
 <li>构造函数通过 <code>prototype</code> 指向原型对象</li>
 <li>原型对象通过 <code>constructor</code> 指回构造函数</li>
@@ -717,8 +717,8 @@ changeVal = () =&gt; {
     </entry>
     <entry>
         <title type="html"><![CDATA[关于 Gridea 接入 Valine 评论系统]]></title>
-        <id>https://bemzhao.github.io/post/bzDWCkPw1/</id>
-        <link href="https://bemzhao.github.io/post/bzDWCkPw1/">
+        <id>https://bemzhao.github.io/gridea/post/bzDWCkPw1/</id>
+        <link href="https://bemzhao.github.io/gridea/post/bzDWCkPw1/">
         </link>
         <updated>2021-03-12T15:43:17.000Z</updated>
         <summary type="html"><![CDATA[<p>Valine：<a href="https://valine.js.org/" target="_blank">https://valine.js.org/</a><br>
@@ -766,8 +766,8 @@ app.$nextTick(() =&gt; {
     </entry>
     <entry>
         <title type="html"><![CDATA[美好的一天]]></title>
-        <id>https://bemzhao.github.io/post/YQR7p-RtO/</id>
-        <link href="https://bemzhao.github.io/post/YQR7p-RtO/">
+        <id>https://bemzhao.github.io/gridea/post/YQR7p-RtO/</id>
+        <link href="https://bemzhao.github.io/gridea/post/YQR7p-RtO/">
         </link>
         <updated>2021-03-08T14:55:42.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="早晨">早晨</h2>
@@ -776,21 +776,21 @@ app.$nextTick(() =&gt; {
         <content type="html"><![CDATA[<h2 id="早晨">早晨</h2>
 <p>原计划是起床之后来组keep醒一醒脑袋，没想到也有和我一样的小可爱愿意早起耕耘，为年轻的身体注入热情💪💪</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://bemzhao.github.io/post-images/1615215404143.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://bemzhao.github.io/gridea/post-images/1615215404143.jpg" alt="" loading="lazy"></figure>
 <p>想着独乐乐不如众乐乐，叫醒自己不如叫醒沿途中同样热爱青春的其他小可爱，只是没想到…<br>
 🙃</p>
-<figure data-type="image" tabindex="2"><img src="https://bemzhao.github.io/post-images/1615215460443.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://bemzhao.github.io/gridea/post-images/1615215460443.jpg" alt="" loading="lazy"></figure>
 <p>只是更没想到…🙃🙃</p>
-<figure data-type="image" tabindex="3"><img src="https://bemzhao.github.io/post-images/1615215481920.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://bemzhao.github.io/gridea/post-images/1615215481920.jpg" alt="" loading="lazy"></figure>
 <p>清晨的小路上，空气格外的清新，还有一点雨后泥土的味道👍。晨跑的路线经过一片新开的楼盘，离坂田地铁站也不远，可能是因为这个原因吧，虽然是新开的楼盘但入住率蛮高的。周围还有一个湾畔mall，让我想起了曦悦湾畔，那里的入住率要是也能这么高就好了，不过也无所谓了，就当资产积累吧……</p>
 <br/>
 <br/>
 <br/>
 <h2 id="能与美好挂钩那当然是吃啦">能与美好挂钩那当然是吃啦</h2>
 <p>回到小窝，叫醒女票一起买菜顺便做早餐</p>
-<figure data-type="image" tabindex="4"><img src="https://bemzhao.github.io/post-images/1615215566422.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="5"><img src="https://bemzhao.github.io/post-images/1615215578319.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="6"><img src="https://bemzhao.github.io/post-images/1615215586824.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://bemzhao.github.io/gridea/post-images/1615215566422.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://bemzhao.github.io/gridea/post-images/1615215578319.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://bemzhao.github.io/gridea/post-images/1615215586824.jpg" alt="" loading="lazy"></figure>
 <p>粗粮切片面包🍞夹生菜🌮带一个笨蛋<br>
 以为能吃八百个<br>
 结果一个就饱了，嗝~😎</p>
@@ -800,19 +800,19 @@ app.$nextTick(() =&gt; {
 <h2 id="还有一件事">还有一件事</h2>
 <p>回想起每次跑步都觉得带个手机真心不方便，经过深入的讨论决定将Apple Watch 列入今年的计划中，支付、收发短信和电话，还能刷深圳通，理论上大部分时间都不需要将手机带在身上了</p>
 <p>于是……</p>
-<figure data-type="image" tabindex="7"><img src="https://bemzhao.github.io/post-images/1615215678762.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://bemzhao.github.io/gridea/post-images/1615215678762.jpg" alt="" loading="lazy"></figure>
 <p>冲它！！！</p>
 <p>直到我来到了益田假日广场……</p>
-<figure data-type="image" tabindex="8"><img src="https://bemzhao.github.io/post-images/1615215703119.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://bemzhao.github.io/gridea/post-images/1615215703119.jpg" alt="" loading="lazy"></figure>
 <p>再见您咧</p>
 <p>虽然没有多早来，但也不觉得有多晚，以为能直接提现货，没想到乌鸡囊是如此之多，是在下输了</p>
 <p>算了，就还是逛逛万象天地好了</p>
-<figure data-type="image" tabindex="9"><img src="https://bemzhao.github.io/post-images/1615215725748.jpg" alt="" loading="lazy"></figure>
-<figure data-type="image" tabindex="10"><img src="https://bemzhao.github.io/post-images/1615215734787.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://bemzhao.github.io/gridea/post-images/1615215725748.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="10"><img src="https://bemzhao.github.io/gridea/post-images/1615215734787.jpg" alt="" loading="lazy"></figure>
 <p>回小窝自己煮饭吃</p>
-<figure data-type="image" tabindex="11"><img src="https://bemzhao.github.io/post-images/1615215749961.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="11"><img src="https://bemzhao.github.io/gridea/post-images/1615215749961.jpg" alt="" loading="lazy"></figure>
 <p>饭后散步</p>
-<figure data-type="image" tabindex="12"><img src="https://bemzhao.github.io/post-images/1615215769542.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="12"><img src="https://bemzhao.github.io/gridea/post-images/1615215769542.jpg" alt="" loading="lazy"></figure>
 <p>美好的一天，结束🛌🛌</p>
 ]]></content>
     </entry>

@@ -9,22 +9,22 @@
 
 <link
     rel="stylesheet"
-    href="https://bemzhao.github.io/media/styles/all.css"
+    href="https://bemzhao.github.io/gridea/media/styles/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous"
 />
-<link rel="shortcut icon" href="https://bemzhao.github.io/favicon.ico?v=1631465144969" />
-<link rel="stylesheet" href="https://bemzhao.github.io/styles/main.css" />
-<link rel="stylesheet" href="https://bemzhao.github.io/media/styles/monokai-sublime.min.css" />
+<link rel="shortcut icon" href="https://bemzhao.github.io/gridea/favicon.ico?v=1631465144969" />
+<link rel="stylesheet" href="https://bemzhao.github.io/gridea/styles/main.css" />
+<link rel="stylesheet" href="https://bemzhao.github.io/gridea/media/styles/monokai-sublime.min.css" />
 
 
 
-<link rel="stylesheet" href="https://bemzhao.github.io/media/styles/aos.css" />
-<script src="https://bemzhao.github.io/media/scripts/vue.js"></script>
+<link rel="stylesheet" href="https://bemzhao.github.io/gridea/media/styles/aos.css" />
+<script src="https://bemzhao.github.io/gridea/media/scripts/vue.js"></script>
 
 
 
-<script src='https://bemzhao.github.io/media/scripts/Valine.min.js'></script>
+<script src='https://bemzhao.github.io/gridea/media/scripts/Valine.min.js'></script>
 
         <meta name="description" content="在参与其他项目开发的时候，npm install 时总是会出现 node-sass 安装不上的问题，因为没有截图在网上找了一张与当时类似的情况：
 
@@ -40,7 +40,7 @@ node-sass 需要一个 binding.node 的二进制..." />
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://bemzhao.github.io">
-        <img src="https://bemzhao.github.io/images/avatar.png?v=1631465144969" class="site-logo">
+        <img src="https://bemzhao.github.io/gridea/images/avatar.png?v=1631465144969" class="site-logo">
         <h1 class="site-title">bemzhao</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -101,7 +101,7 @@ node-sass 需要一个 binding.node 的二进制..." />
       面包会有的，牛奶会有的，一切都会有的
     </div>
     <div class="site-footer">
-      <a href="mailto:bem.zhao@foxmail.com">bem.zhao@foxmail.com</a> | <a class="rss" href="https://bemzhao.github.io/atom.xml" target="_blank">RSS</a>
+      <a href="mailto:bem.zhao@foxmail.com">bem.zhao@foxmail.com</a> | <a class="rss" href="https://bemzhao.github.io/gridea/atom.xml" target="_blank">RSS</a>
     </div>
   </div>
 </div>
@@ -113,11 +113,11 @@ node-sass 需要一个 binding.node 的二进制..." />
                         <h2 class="post-title">node-sass 安装问题</h2>
                         <div class="post-date">2021-09-12</div>
                         
-                        <div class="feature-container" style="background-image: url('https://bemzhao.github.io/post-images/GQLXm5Unh.PNG')"></div>
+                        <div class="feature-container" style="background-image: url('https://bemzhao.github.io/gridea/post-images/GQLXm5Unh.PNG')"></div>
                         
                         <div class="post-content" v-pre><p>在参与其他项目开发的时候，npm install 时总是会出现 node-sass 安装不上的问题，因为没有截图在网上找了一张与当时类似的情况：</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://bemzhao.github.io/post-images/1631465125155.png" alt="node install error" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://bemzhao.github.io/gridea/post-images/1631465125155.png" alt="node install error" loading="lazy"></figure>
 <p><br/><br/></p>
 <h2 id="提示没有-python">提示没有 python</h2>
 <p>node-sass 需要一个 binding.node 的二进制文件，出现这种情况是因为下载 binding.node 失败，node-sass 会尝试在本地编译 binding.node，过程就需要python，这里我不考虑 python 去编译 binding.node 的情况，看看如何解决下载失败的。</p>
@@ -133,7 +133,7 @@ sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
 <p>除此之外，如果项目太久，项目中使用的 node-sass 版本比较旧，新同学在刚接手时，可能装的 node 版本就会是最新的，那么就有另一个问题，node-sass 和 node 两者的版本不兼容。</p>
 <p>在 node-sass 的 github 仓库里有关于 node 版本的支持策略：</p>
 <p>👉 <a href="https://github.com/sass/node-sass">https://github.com/sass/node-sass</a></p>
-<figure data-type="image" tabindex="2"><img src="https://bemzhao.github.io/post-images/1631462591679.PNG" alt="node 版本支持策略" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://bemzhao.github.io/gridea/post-images/1631462591679.PNG" alt="node 版本支持策略" loading="lazy"></figure>
 <p>node 版本如果太高，一般来说项目中的低版本的 node-sass 都是安装不上的，他找不到对应的 binding.node 就会报错。</p>
 <p><br/><br/></p>
 <h2 id="nvm-切换低版本-node">nvm 切换低版本 node</h2>
@@ -151,14 +151,14 @@ nvm use 120.0.0          // 选择使用XXX版本
 </code></pre>
 <p><br/><br/></p>
 <p>nvm 安装 node 时如果有遇到问题</p>
-<figure data-type="image" tabindex="3"><img src="https://bemzhao.github.io/post-images/1631463682775.PNG" alt="nvm 安装 node 出现问题" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://bemzhao.github.io/gridea/post-images/1631463682775.PNG" alt="nvm 安装 node 出现问题" loading="lazy"></figure>
 <p>在 nvm 根目录下 settings.txt 设置下载源即可：</p>
 <pre><code class="language-text">node_mirror: npm.taobao.org/mirrors/node/
 npm_mirror: npm.taobao.org/mirrors/npm/
 </code></pre>
 <br/>
-<figure data-type="image" tabindex="4"><img src="https://bemzhao.github.io/post-images/1631463819781.PNG" alt="nvm 目录" loading="lazy"></figure>
-<figure data-type="image" tabindex="5"><img src="https://bemzhao.github.io/post-images/1631463879195.PNG" alt="配置下载源" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://bemzhao.github.io/gridea/post-images/1631463819781.PNG" alt="nvm 目录" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://bemzhao.github.io/gridea/post-images/1631463879195.PNG" alt="配置下载源" loading="lazy"></figure>
 <p><br/><br/></p>
 <h2 id="下载对应版本后-bindingnode-还是报错">下载对应版本后 binding.node 还是报错</h2>
 <pre><code class="language-text">Found bindings for the following environments:
@@ -170,13 +170,13 @@ npm_mirror: npm.taobao.org/mirrors/npm/
                         
                         <div class="tag-container">
                             
-                            <a href="https://bemzhao.github.io/tag/pQ_JHumTU/" class="tag"> node-sass </a>
+                            <a href="https://bemzhao.github.io/gridea/tag/pQ_JHumTU/" class="tag"> node-sass </a>
                             
                         </div>
                          
                         <div class="next-post">
                             <div class="next">下一篇</div>
-                            <a href="https://bemzhao.github.io/post/8GKAgoJhK/">
+                            <a href="https://bemzhao.github.io/gridea/post/8GKAgoJhK/">
                                 <h3 class="post-title">常见问题</h3>
                             </a>
                         </div>
@@ -188,7 +188,7 @@ npm_mirror: npm.taobao.org/mirrors/npm/
             </div>
         </div>
 
-        <script src="https://bemzhao.github.io/media/scripts/aos.js"></script>
+        <script src="https://bemzhao.github.io/gridea/media/scripts/aos.js"></script>
 <script type="application/javascript">
     AOS.init();
 
@@ -211,7 +211,7 @@ npm_mirror: npm.taobao.org/mirrors/npm/
 </script>
 
 
-<script src="https://bemzhao.github.io/media/scripts/highlight.min.js"></script>
+<script src="https://bemzhao.github.io/gridea/media/scripts/highlight.min.js"></script>
 <script>
     hljs.initHighlightingOnLoad();
 </script>
